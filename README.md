@@ -7,8 +7,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Clone the repo
 
 ```shell
-git clone https://github.com/bryanforbes/intern-angular
-cd intern-angular
+git clone https://github.com/srirampalraj/contact-management
+cd contact-management
 ```
 
 ### Install npm packages
