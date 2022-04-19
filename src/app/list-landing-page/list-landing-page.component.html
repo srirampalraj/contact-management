@@ -1,0 +1,36 @@
+<div>
+  <div class="p20" fxLayoutGap="18px" fxLayout="column">
+    <div
+      fxLayout="row"
+      class="w-100 side-padding"
+      fxLayoutAlign="space-between center"
+    >
+      <h1 class="cl-primary">Contacts list</h1>
+      <a href="/add-contact">
+        <button mat-button class="button-primary" (click)="addContact()">
+          <div fxLayout="row" fxLayoutGap="16px" fxLayoutAlign="start center">
+            <div>
+              <span class="material-icons text-medium icon"> person_add </span>
+            </div>
+            <div fxLayout="row" fxLayoutAlign="center center">
+              <span class="text-small">Add new Contact</span>
+            </div>
+          </div>
+        </button>
+      </a>
+    </div>
+    <div
+      class="w-100 img-contain"
+      fxLayout="column"
+      fxLayoutAlign="center center"
+      fxLayoutGap="24px"
+    >
+      <img
+        class="img-no-result"
+        src="/assets/illustrations/no-result.svg"
+        alt="no-results"
+      />
+      <h1><b class="cl-primary">No results found</b></h1>
+    </div>
+  </div>
+</div>

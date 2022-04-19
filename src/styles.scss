@@ -1,5 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
 @import "@angular/material/prebuilt-themes/indigo-pink.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"),
+    url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"),
+    url(https://example.com/MaterialIcons-Regular.woff) format("woff"),
+    url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
+}
 body {
   margin: 0px;
+}
+.full-page {
+  height: 100vh;
+  width: 100vw;
+}
+.p20 {
+  padding: 20px;
+}
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.text-small {
+  font-size: 16px;
+}
+.text-medium {
+  font-size: 20px;
+}
+.button-primary {
+  background-color: #343242;
+  color: #fff;
+}
+.cl-primary {
+  color: #343242;
+}
+.side-padding {
+  padding: 0 24px;
 }
