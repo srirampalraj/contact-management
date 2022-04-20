@@ -12,6 +12,7 @@ const routes: Routes = [];
       { path: '', pathMatch: 'full', redirectTo: 'contact-list' },
       { path: 'contact-list', component: ListLandingPageComponent },
       { path: 'add-contact', component: AddNewContactComponent },
+      { path: 'edit-contact/:id', component: AddNewContactComponent },
 
       { path: '**', component: NotFoundComponent },
     ]),

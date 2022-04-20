@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AddNewContactComponent } from './add-new-contact/add-new-contact.component';
 
@@ -8,6 +9,7 @@ import { AppComponent } from './app.component';
 import { ListLandingPageComponent } from './list-landing-page/list-landing-page.component';
 import { MaterialModule } from './material.module';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,15 @@ import { NotFoundComponent } from './not-found/not-found.component';
     NotFoundComponent,
     AddNewContactComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, MaterialModule, FlexLayoutModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    MaterialModule,
+    FlexLayoutModule,
+    ReactiveFormsModule,
+    FormsModule,
+    BrowserAnimationsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
